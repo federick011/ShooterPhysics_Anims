@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caec6cfe00ea1474eb4660ec1889aa21, type: 3}
+  m_Name: WeaponsSettings
+  m_EditorClassIdentifier: 
+  gunPrefab: {fileID: 2696355668620606909, guid: 8485b669cddf4ca4eb65f26c941a6cd0, type: 3}
+  explosionVFx: {fileID: 5624604100086370131, guid: 4a6aece35557f45478598be007823f3d, type: 3}
+  weaponsSetting:
+  - bulletType: 0
+    gunColor: {r: 1, g: 0, b: 0.42096138, a: 1}
+    positionToSpaw: {x: 0, y: 0, z: 0}
+  - bulletType: 1
+    gunColor: {r: 1, g: 0, b: 0.9328413, a: 0}
+    positionToSpaw: {x: 0, y: 0, z: 0}
+  - bulletType: 2
+    gunColor: {r: 1, g: 0.982059, b: 0, a: 0}
+    positionToSpaw: {x: 0, y: 0, z: 0}
